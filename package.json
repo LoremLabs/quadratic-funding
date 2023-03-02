@@ -8,12 +8,12 @@
   "scripts": {
     "build": "tsc -b",
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
-    "coverage": "jest --coverage",
+    "coverage": "jest src --coverage",
     "format": "prettier --write --plugin-search-dir=. .",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore src/*.ts ",
     "lint:fix": "prettier -w .",
     "release": "np",
-    "test": "jest"
+    "test": "jest src"
   },
   "module": "dist/index.js",
   "files": [
