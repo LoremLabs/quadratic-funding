@@ -1,6 +1,6 @@
 {
   "name": "quadratic-funding",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Javascript library for quadratic funding",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,8 @@
   },
   "module": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "!dist/**/*.test.*"
   ],
   "keywords": [],
   "homepage": "https://www.github.com/LoremLabs/quadratic-funding#readme",
