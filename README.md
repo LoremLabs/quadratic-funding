@@ -4,11 +4,20 @@
 [![License: Kudos--MIT](https://img.shields.io/badge/License-Kudos--MIT-yellow.svg)](#)
 [![Twitter: loremlabs](https://img.shields.io/twitter/follow/loremlabs.svg?style=social)](https://twitter.com/loremlabs)
 
-> Javascript library for calculating quadratic funding matches
+> Javascript library for calculating matching fund distribution using the quadratic funding (QF) algorithm.
 
 # Quadratic Funding
 
 > The way that this payment is calculated is as follows: for any given project, take the square root of each contributor's contribution, add these values together, and take the square of the result. - [@VitalikButerin](https://vitalik.ca/general/2019/12/07/quadratic.html)
+
+> Number of contributors matters more than amount funded.This pushes power to the edges, away from whales & other central power brokers.This creates more democracy in public goods funding decisions! 🦄 -[WTF is Quadratic Funding](https://wtfisqf.com/)
+
+## Quadratic Funding Resources
+
+- [WTF is Quadratic Funding in 60s [youtube]](https://www.youtube.com/watch?v=HJljTtLnymE&t=3s)
+- [Quadratic Funding [Blog Post by Vitalik Buterin]](https://vitalik.ca/general/2019/12/07/quadratic.html)
+- [Quadratic Funding Online Calculator [web]](https://wtfisqf.com/)
+- [A flexible design for funding public goods [pdf]](https://arxiv.org/pdf/1809.06421.pdf)
 
 ## Install
 
@@ -20,10 +29,8 @@ npm install @loremlabs/quadratic-funding
 
 When called, `calculateQf` will return an array of projects, each with a `match` property that is the amount of match funding that should be awarded to that project.
 
-
-
 ```js
-import { calculateQf } from '@loremlabs/quadratic-funding';
+import { calculateQf } from "@loremlabs/quadratic-funding";
 
 // pass in an array of projects, each with an identifier and an array of contributions
 const projects = [
@@ -86,7 +93,6 @@ Matching Amount: 100
 │ kudos-for-design │ 2             │ 200                 │ 80    │ 280   │
 └──────────────────┴───────────────┴─────────────────────┴───────┴───────┘
 ```
-
 
 ## Run tests
 
