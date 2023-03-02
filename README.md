@@ -30,7 +30,9 @@ npm run test
 
 ## Author
 
-👤 **Matt Mankins**
+👤 **Matt Mankins / Lorem Labs**
+
+- Twitter: [@loremlabs](https://twitter.com/loremlabs)
 
 - Twitter: [@mankins](https://twitter.com/mankins)
 - Github: [@mankins](https://github.com/mankins)

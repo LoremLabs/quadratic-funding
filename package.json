@@ -4,7 +4,13 @@
   "description": "Javascript library for quadratic funding",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "build": "tsc -b",
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
