@@ -12,7 +12,7 @@ describe("It should throw errors if the input is invalid", () => {
         expect(() => (0, index_1.calculateQf)([], -1)).toThrow("matchingAmount must be greater or equal to 0");
     });
     test("should throw an error if project does not contain an identifier", () => {
-        expect(() => (0, index_1.calculateQf)([{ amount: 0, match: 0, }], 0)).toThrow("project must contain a defined identifier");
+        expect(() => (0, index_1.calculateQf)([{ amount: 0, match: 0 }], 0)).toThrow("project must contain a defined identifier");
     });
     test("should throw an error if project contains an empty identifier", () => {
         expect(() => (0, index_1.calculateQf)([{ amount: 0, match: 0, identifier: "" }], 0)).toThrow("project must contain an identifier");
@@ -21,7 +21,13 @@ describe("It should throw errors if the input is invalid", () => {
         expect(() => (0, index_1.calculateQf)([{ identifier: "abc", match: 0, contributions: [{ amount: -1 }] }], 0)).toThrow("contribution amount must be greater than 0");
     });
     test("should throw an error if project amount is not a number", () => {
-        expect(() => (0, index_1.calculateQf)([{ identifier: "abc", match: 0, contributions: [{ amount: {} }] }], 0) // eslint-disable-line @typescript-eslint/no-explicit-any
+        expect(() => (0, index_1.calculateQf)([
+            {
+                identifier: "abc",
+                match: 0,
+                contributions: [{ amount: {} }],
+            },
+        ], 0) // eslint-disable-line @typescript-eslint/no-explicit-any
         ).toThrow("contribution amount must be a number");
     });
 });
