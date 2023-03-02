@@ -26,7 +26,12 @@
     "dist",
     "!dist/**/*.test.*"
   ],
-  "keywords": [],
+  "keywords": [
+    "quadratic funding",
+    "quadratic",
+    "funding",
+    "qf"
+  ],
   "homepage": "https://www.github.com/LoremLabs/quadratic-funding#readme",
   "author": {
     "name": "Matt Mankins",
