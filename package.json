@@ -1,6 +1,6 @@
 {
   "name": "@loremlabs/quadratic-funding",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Javascript library for quadratic funding",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
