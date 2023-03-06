@@ -1,6 +1,6 @@
 # quadratic-funding
 
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.0.5-blue.svg?cacheSeconds=2592000)
 [![License: Kudos--MIT](https://img.shields.io/badge/License-Kudos--MIT-yellow.svg)](#)
 [![Twitter: loremlabs](https://img.shields.io/twitter/follow/loremlabs.svg?style=social)](https://twitter.com/loremlabs)
 
