@@ -1,0 +1,12 @@
+name: "Kudos"
+on:
+  pull_request: {} # for testing now
+
+jobs:
+  kudos:
+    name: Find contributors and ink kudos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: LoremLabs/kudos-for-code/github-action@github-action
+        with: {}
