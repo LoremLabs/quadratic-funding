@@ -1,0 +1,6 @@
+- name: Kudos for Code
+  uses: LoremLabs/kudos-for-code-action@7e4b20baa0acf1845995585cfd5ffa5a07ac12db
+  with:
+    # Root directory containing package.json
+    search-dir: . # optional, default is .
+    # Identify contributors from devDependecies (Node.js)
