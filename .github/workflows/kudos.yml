@@ -2,6 +2,7 @@ name: Kudos for Code
 on:
   push:
     branches: [$default-branch]
+  workflow_dispatch:
 
 env:
   KUDOS_STORAGE_TOKEN: KUDOS_STORAGE_TOKEN                   # set this to your preferred AWS region, e.g. us-west-1
