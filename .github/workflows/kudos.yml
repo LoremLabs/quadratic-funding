@@ -12,10 +12,12 @@ jobs:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with: { version: 7 } 
-      - uses: LoremLabs/kudos-for-code-action@c1bbab0adfdcf66a2deae7babc36e3dd6a8f914a
+      - uses: LoremLabs/kudos-for-code-action@ad54c83a71285b39f31f5e30055fc90d915e9b03
         with:
           search-dir: "."
           destination: "pool"
           pool-id: ${{ secrets.KUDOS_POOL_ID }}
           setler-keys: ${{ secrets.SETLER_KEYS_0 }}
           pool-storage-token: ${{ secrets.KUDOS_STORAGE_TOKEN }}
+          pool-endpoint: "https://api.semicolons.com"
+          
