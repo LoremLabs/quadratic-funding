@@ -1,7 +1,7 @@
 # quadratic-funding
 
 ![Version](https://img.shields.io/badge/version-0.0.5-blue.svg?cacheSeconds=2592000)
-[![License: Kudos--MIT](https://img.shields.io/badge/License-Kudos--MIT-yellow.svg)](#)
+[![License: Kudos--MIT](https://img.shields.io/badge/License-Kudos--MIT-yellow.svg)](LICENSE)
 [![Twitter: loremlabs](https://img.shields.io/twitter/follow/loremlabs.svg?style=social)](https://twitter.com/loremlabs)
 
 > Javascript library for calculating matching fund distribution using the quadratic funding (QF) algorithm.
