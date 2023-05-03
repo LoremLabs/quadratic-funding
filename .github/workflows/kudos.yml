@@ -9,9 +9,6 @@ jobs:
     name: Support your open source team
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - run: npm i
       - uses: LoremLabs/kudos-for-code-action@6a5662984666db67c66f26ff825444ce349e7d1b
         with:
           search-dir: "."
