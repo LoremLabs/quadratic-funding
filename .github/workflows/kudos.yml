@@ -1,7 +1,7 @@
 name: Kudos for Code
 on:
   push:
-    branches: [$default-branch]
+    branches: main
   workflow_dispatch:
 
 jobs:
