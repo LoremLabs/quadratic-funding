@@ -9,7 +9,7 @@ jobs:
     name: Support your open source team
     runs-on: ubuntu-latest
     steps:
-      - uses: LoremLabs/kudos-for-code-action@6a5662984666db67c66f26ff825444ce349e7d1b
+      - uses: LoremLabs/kudos-for-code-action@0a8536dcb54f675bb86fbf8d3019c3f9370430a1
         with:
           search-dir: "."
           destination: "pool"
