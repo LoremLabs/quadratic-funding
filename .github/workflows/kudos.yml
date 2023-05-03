@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
-        with: { version: 7 } 
+        with: { version: 7 }
       - uses: LoremLabs/kudos-for-code-action@ad54c83a71285b39f31f5e30055fc90d915e9b03
         with:
           search-dir: "."
@@ -20,4 +20,3 @@ jobs:
           setler-keys: ${{ secrets.SETLER_KEYS_0 }}
           pool-storage-token: ${{ secrets.KUDOS_STORAGE_TOKEN }}
           pool-endpoint: "https://api.semicolons.com"
-          
