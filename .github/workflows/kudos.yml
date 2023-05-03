@@ -5,7 +5,8 @@ on:
   workflow_dispatch:
 
 env:
-  KUDOS_STORAGE_TOKEN: KUDOS_STORAGE_TOKEN                   # set this to your preferred AWS region, e.g. us-west-1
+  KUDOS_STORAGE_TOKEN: ${{ secrets.KUDOS_STORAGE_TOKEN }}
+  SETLER_KEYS_0: ${{ secrets.SETLER_KEYS_0 }}
 
 jobs:
   kudos:
