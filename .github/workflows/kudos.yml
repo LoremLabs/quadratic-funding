@@ -9,6 +9,7 @@ jobs:
     name: Support your open source team
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: LoremLabs/kudos-for-code-action@0a8536dcb54f675bb86fbf8d3019c3f9370430a1
         with:
           search-dir: "."
