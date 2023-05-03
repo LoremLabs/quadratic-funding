@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: LoremLabs/kudos-for-code-action@0a8536dcb54f675bb86fbf8d3019c3f9370430a1
+      - uses: LoremLabs/kudos-for-code-action@cbe31d1fc7d2a9e8e109ceb484cd4ca1c195a8c9
         with:
           search-dir: "."
           destination: "pool"
