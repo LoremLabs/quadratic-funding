@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with: { version: 7 } 
-      - uses: LoremLabs/kudos-for-code-action@3b45324b55040d8640ef18e3e9510bdd8721f7c0
+      - uses: LoremLabs/kudos-for-code-action@c1bbab0adfdcf66a2deae7babc36e3dd6a8f914a
         with:
           search-dir: "."
           destination: "pool"
