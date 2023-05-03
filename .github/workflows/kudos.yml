@@ -12,10 +12,9 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
       - run: npm i
-      - uses: LoremLabs/kudos-for-code-action@4969ba987caf1496eec5a7a0e0a2ec3c3afdd302
+      - uses: LoremLabs/kudos-for-code-action@9cb3a2c82cc49e334628e29e557d56497aabd158
         with:
           search-dir: "."
           destination: "pool"
           pool-id: ""
-          KUDOS_STORAGE_TOKEN: ${{ secrets.KUDOS_STORAGE_TOKEN }}
-          SETLER_KEYS_0: ${{ secrets.SETLER_KEYS_0 }}
+          setler-keys: ${{ secrets.SETLER_KEYS_0 }}
