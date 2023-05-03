@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
       - run: npm i
-      - uses: LoremLabs/kudos-for-code-action@c9d0512f047e3b41b28ce94d57cf1d2988363bf3
+      - uses: LoremLabs/kudos-for-code-action@f1dee943b45ecfe6c5d75d08d057da4dabaa4dd8
         with:
           search-dir: "."
           destination: "pool"
