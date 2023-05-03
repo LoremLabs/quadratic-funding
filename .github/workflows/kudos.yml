@@ -4,10 +4,6 @@ on:
     branches: [$default-branch]
   workflow_dispatch:
 
-env:
-  KUDOS_STORAGE_TOKEN: ${{ secrets.KUDOS_STORAGE_TOKEN }}
-  SETLER_KEYS_0: ${{ secrets.SETLER_KEYS_0 }}
-
 jobs:
   kudos:
     name: Support your open source team
@@ -21,3 +17,5 @@ jobs:
           search-dir: "."
           destination: "pool"
           pool-id: ""
+          KUDOS_STORAGE_TOKEN: ${{ secrets.KUDOS_STORAGE_TOKEN }}
+          SETLER_KEYS_0: ${{ secrets.SETLER_KEYS_0 }}
