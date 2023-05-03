@@ -16,5 +16,5 @@ jobs:
         with:
           search-dir: "."
           destination: "pool"
-          pool-id: ""
+          pool-id: ${{ secrets.KUDOS_POOL_ID }}
           setler-keys: ${{ secrets.SETLER_KEYS_0 }}
